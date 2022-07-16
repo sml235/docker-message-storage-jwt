@@ -1,0 +1,20 @@
+INSERT INTO users (id, name, password) VALUES (1, 'John', '{noop}123');
+INSERT INTO users (id, name, password) VALUES (2, 'Mary', '{noop}1234');
+INSERT INTO users (id, name, password) VALUES (3, 'Tom', '{noop}Meow');
+INSERT INTO users (id, name, password) VALUES (4, 'Jerry', '{noop}321');
+
+INSERT INTO messages (id, message_text, user_id) VALUES (1, 'Hello Mary', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (2, 'How are you?', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (3, 'Hello...', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (4, 'Hello John', 2);
+INSERT INTO messages (id, message_text, user_id) VALUES (5, 'I am fine', 2);
+INSERT INTO messages (id, message_text, user_id) VALUES (6, 'Meow', 3);
+INSERT INTO messages (id, message_text, user_id) VALUES (7, '<Keep the silent>>', 4);
+INSERT INTO messages (id, message_text, user_id) VALUES (8, 'Do you want to go somewhere?', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (9, 'Don''t be silent', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (10, 'Ask something', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (11, 'Hello', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (12, 'Hello!', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (13, 'Hello!!', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (14, 'Hello!!!', 1);
+INSERT INTO messages (id, message_text, user_id) VALUES (15, 'Hello!!!!', 1);

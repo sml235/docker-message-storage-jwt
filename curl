@@ -1,0 +1,1 @@
+curl -i -X POST -d '{ "name": "John",   "messageText": "history 5"}' -H "Content-Type: application/json" -H "Authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJKb2huIiwiZXhwIjoxNjU3OTA0MjgwLCJpYXQiOjE2NTc4MTc4ODAsImF1dGhvcml0aWVzIjoiUk9MRV9ERUZBVUxUIn0.i3pJMuGVZWSj0Tg294goZHTuZphLFIS1FmVHpjCFmfk"  http://localhost:8083/messages
