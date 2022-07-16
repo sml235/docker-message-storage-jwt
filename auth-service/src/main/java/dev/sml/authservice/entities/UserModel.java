@@ -1,4 +1,4 @@
-package dev.sml.messagestorage.entities;
+package dev.sml.authservice.entities;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
-package authservice.security;
+package dev.sml.authservice.security;
 
 
-import dev.sml.messagestorage.service.CustomUserDetailsService;
+import dev.sml.authservice.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;

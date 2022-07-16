@@ -1,4 +1,4 @@
-package dev.sml.messagestorage.security;
+package dev.sml.authservice.security;
 
 import lombok.Getter;
 import lombok.ToString;
@@ -13,7 +13,7 @@ public class JwtConfig {
     @Value("${security.jwt.header:Authorization}")
     private String header;
 
-    @Value("${security.jwt.prefix:Bearer_}")
+    @Value("${security.jwt.prefix:Bearer}")
     private String prefix;
 
     @Value("${security.jwt.expiration:#{24*60*60*1000}}")

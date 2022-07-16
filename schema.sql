@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS message_storage;
+USE message_storage
+
 DROP TABLE IF EXISTS messages;
 DROP TABLE IF EXISTS users;
 

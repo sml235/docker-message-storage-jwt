@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.sml</groupId>
-	<artifactId>auth-service</artifactId>
+	<artifactId>message-storage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auth-service</name>
-	<description>auth-service</description>
+	<name>message-storage</name>
+	<description>message-storage</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

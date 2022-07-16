@@ -1,6 +1,6 @@
-package dev.sml.messagestorage.service;
+package dev.sml.authservice.service;
 
-import dev.sml.messagestorage.security.JwtConfig;
+import dev.sml.authservice.security.JwtConfig;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

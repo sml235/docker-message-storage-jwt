@@ -1,7 +1,9 @@
-FROM maven:3.8.2-jdk-8
+FROM maven:3.8-openjdk-11
 
-WORKDIR /bezkoder-app
+WORKDIR /auth-service
 COPY . .
 RUN mvn clean install
 
-CMD mvn spring-boot:run
+EXPOSE 8083
+
+CMD ["mvn", "spring-boot:run"]

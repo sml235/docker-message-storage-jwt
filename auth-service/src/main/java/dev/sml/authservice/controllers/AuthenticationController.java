@@ -1,8 +1,8 @@
-package dev.sml.messagestorage.controllers;
+package dev.sml.authservice.controllers;
 
-import dev.sml.messagestorage.dto.AuthRequest;
-import dev.sml.messagestorage.dto.AuthResponse;
-import dev.sml.messagestorage.service.JwtUtil;
+import dev.sml.authservice.dto.AuthRequest;
+import dev.sml.authservice.dto.AuthResponse;
+import dev.sml.authservice.service.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

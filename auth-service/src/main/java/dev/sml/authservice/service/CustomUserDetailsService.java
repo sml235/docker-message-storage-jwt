@@ -1,7 +1,8 @@
-package dev.sml.messagestorage.service;
+package dev.sml.authservice.service;
 
-import dev.sml.messagestorage.entities.UserModel;
-import dev.sml.messagestorage.repository.UserRepository;
+
+import dev.sml.authservice.entities.UserModel;
+import dev.sml.authservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

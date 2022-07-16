@@ -1,4 +1,4 @@
-package authservice.controllers.dto;
+package dev.sml.authservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

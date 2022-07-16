@@ -31,7 +31,7 @@ public class JwtFilter extends OncePerRequestFilter {
             filterChain.doFilter(request, response);
             return;
         }
-        String token = header.replace(jwtConfig.getPrefix(), "");
+        String token = header.substring(7);
         try {
             String userName = jwtUtil.extractUsername(token);
             if (userName != null && SecurityContextHolder.getContext().getAuthentication() == null) {

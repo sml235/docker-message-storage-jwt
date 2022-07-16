@@ -1,6 +1,6 @@
-package authservice.security;
+package dev.sml.authservice.security;
 
-import dev.sml.messagestorage.service.JwtUtil;
+import dev.sml.authservice.service.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
@@ -31,7 +31,7 @@ public class JwtFilter extends OncePerRequestFilter {
             filterChain.doFilter(request, response);
             return;
         }
-        String token = header.replace(jwtConfig.getPrefix(), "");
+        String token = header.substring(7);
         try {
             String userName = jwtUtil.extractUsername(token);
             if (userName != null && SecurityContextHolder.getContext().getAuthentication() == null) {
